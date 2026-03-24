@@ -76,7 +76,7 @@ const Navigation = () => {
             <a
               href="/Flumen.exe"
               download="Flumen.exe"
-              onClick={() => window.open("/install", "_blank")}
+              onClick={() => window.open("#/install", "_blank")}
             >
               <Download className="mr-2 h-4 w-4" />
               Скачать
