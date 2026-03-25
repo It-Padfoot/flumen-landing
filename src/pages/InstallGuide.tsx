@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const InstallGuide = () => {
   const handleDownload = () => {
     const a = document.createElement("a");
-    a.href = "/Flumen.exe";
+    a.href = "Flumen.exe";
     a.download = "Flumen.exe";
     a.click();
   };
@@ -96,7 +96,7 @@ const InstallGuide = () => {
               <div className="grid gap-4 md:grid-cols-2">
                 <figure className="rounded-lg border border-border p-2 bg-card">
                   <img
-                    src="/install-guide/smartscreen-more.png"
+                    src="install-guide/smartscreen-more.png"
                     alt="Окно SmartScreen с кнопкой Подробнее"
                     className="w-full rounded-md"
                     loading="lazy"
@@ -104,7 +104,7 @@ const InstallGuide = () => {
                 </figure>
                 <figure className="rounded-lg border border-border p-2 bg-card">
                   <img
-                    src="/install-guide/smartscreen-run-anyway.png"
+                    src="install-guide/smartscreen-run-anyway.png"
                     alt="Окно SmartScreen с кнопкой Выполнить в любом случае"
                     className="w-full rounded-md"
                     loading="lazy"
@@ -147,7 +147,7 @@ const InstallGuide = () => {
               <div className="grid gap-4 sm:grid-cols-2">
                 <figure className="rounded-lg border border-border p-2 bg-card">
                   <img
-                    src="/install-guide/setup-first.png"
+                    src="install-guide/setup-first.png"
                     alt="Экран установщика Flumen с кнопкой Установить"
                     className="w-full rounded-md"
                     loading="lazy"
@@ -155,7 +155,7 @@ const InstallGuide = () => {
                 </figure>
                 <figure className="rounded-lg border border-border p-2 bg-card">
                   <img
-                    src="/install-guide/setup-install-button.png"
+                    src="install-guide/setup-install-button.png"
                     alt="Экран мастера с кнопкой Установить"
                     className="w-full rounded-md"
                     loading="lazy"
@@ -163,7 +163,7 @@ const InstallGuide = () => {
                 </figure>
                 <figure className="rounded-lg border border-border p-2 bg-card">
                   <img
-                    src="/install-guide/setup-license.png"
+                    src="install-guide/setup-license.png"
                     alt="Экран лицензионного соглашения"
                     className="w-full rounded-md"
                     loading="lazy"
@@ -171,7 +171,7 @@ const InstallGuide = () => {
                 </figure>
                 <figure className="rounded-lg border border-border p-2 bg-card">
                   <img
-                    src="/install-guide/setup-folder.png"
+                    src="install-guide/setup-folder.png"
                     alt="Экран выбора папки установки"
                     className="w-full rounded-md"
                     loading="lazy"
@@ -179,7 +179,7 @@ const InstallGuide = () => {
                 </figure>
                 <figure className="rounded-lg border border-border p-2 bg-card">
                   <img
-                    src="/install-guide/setup-finish-open-word.png"
+                    src="install-guide/setup-finish-open-word.png"
                     alt="Экран завершения установки с запуском Microsoft Word"
                     className="w-full rounded-md"
                     loading="lazy"
@@ -206,7 +206,7 @@ const InstallGuide = () => {
                       </p>
                       <figure className="rounded-lg border border-amber-200 p-2 bg-white max-w-md">
                         <img
-                          src="/install-guide/setup-error-log.png"
+                          src="install-guide/setup-error-log.png"
                           alt="Окно ошибки установки с ссылкой на файл журнала"
                           className="w-full rounded-md"
                           loading="lazy"
@@ -244,7 +244,7 @@ const InstallGuide = () => {
               </ol>
               <figure className="rounded-lg border border-border p-2 bg-card">
                 <img
-                  src="/install-guide/word-plugin-panel.png"
+                  src="install-guide/word-plugin-panel.png"
                   alt="Word с открытой правой панелью плагина Flumen"
                   className="w-full rounded-md"
                   loading="lazy"
